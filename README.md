@@ -8,7 +8,7 @@ Vous pouvez télecharger les fichiers sur vos telephones ou ordinateur :
 
 #### lancez les commandes : 
 ```
-1. sudo apt update && sudo apt install python && sudo apt install git
+1. sudo apt update && sudo apt install git
 2. git clone https://github.com/BEN-Djemel/B2SLAM.git
 ```
 
@@ -16,7 +16,7 @@ Vous pouvez télecharger les fichiers sur vos telephones ou ordinateur :
 
 #### lancez les commandes :
 ```
-1. apk update && apk add python && apk add git
+1. apk update && apk add git
 2. git clone https://github.com/BEN-Djemel/B2SLAM.git
 ```
 
@@ -24,6 +24,6 @@ Vous pouvez télecharger les fichiers sur vos telephones ou ordinateur :
 
 #### lancez les commandes : 
 ```
-1. apt update && apt install python && apt install git
+1. apt update && apt install git
 2. git clone https://github.com/BEN-Djemel/B2SLAM.git
 ```
