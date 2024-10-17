@@ -129,9 +129,36 @@ Console.WriteLine(c);
 }
 Quelle est la plage et le nombre de valeurs possibles pour la variable « i » ?
 En vous appuyant sur le tableau présenté ici, expliquez ce résultat
-3.6 :
-3.7 :
-3.8 :
-3.88 :
-3.9 :
+3.6 : Ecrire un programme qui comme dans l’exemple ci-dessous, dessine un carré d’étoiles. L’utilisateur saisit le nombre d’étoiles d’un côté. Le carré est plein.
+3.7 : Ecrire un programme qui comme dans l’exemple ci-dessous, dessine un carré d’étoiles. L’utilisateur saisit le nombre d’étoiles d’un côté. Seuls les côtés sont représentés.
+3.8 : Ecrire un programme qui permet la saisie d’une valeur et retourne la factorielle correspondante. (ex : Fact(5) = 5*4*3*2*1 = 120.)
+3.88 : La suite de « Fibonacci 1» où  Fn = Fn-1 +  Fn-2. Ecrire un programme qui permet la saisie d’une valeur (n)  et affiche Fn. 
+F0 = 0
+F1=1
+F2=1 (car F2 = F1+F0)
+F3=2 (car F3 = F2+F1)
+F4=3 ; F5=5 ; F6=8 etc.
+
+On remarquera les éléments suivants :
+    • Cette suite dispose d’un état initial : f(0) = 0 et f(1) = 1.
+    • Le calcul de chaque terme de la suite s’effectue à l’aide d’une structure itérative.
+    • Chaque terme de la suite (un f), il est nécessaire de connaitre les deux termes précédents.
+3.9 : Copiez et exécutez le programme ci-après en utilisant la valeur 5
+
+Le programme devrait afficher la somme des entiers de 1 à 4. Ce qui n’est pas le cas.
+
+Proposez une correction !
+
+Console.WriteLine("Entrez un nombre :");
+int valeurSaisie = 0;
+bool resultat = int.TryParse(Console.ReadLine(),out valeurSaisie);
+if (resultat == true)
+{
+int sommeDesEntiers = 0;
+for (int i = 1; i <= valeurSaisie; i++)
+{
+sommeDesEntiers += i;
+}
+Console.WriteLine("La somme des entiers de 1 jusqu'à {0} est : {1}", valeurSaisie - 1, sommeDesEntiers);
+}
  ```
