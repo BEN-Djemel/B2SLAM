@@ -1,6 +1,6 @@
 # B2SLAM
 
-Vous trouverez sur ce repertoire mes fichiers c# correspondant aux tp 1,2 et 3.
+Vous trouverez sur ce repertoire mes fichiers c# correspondant aux tp 1, 2 et 3.
 
 Vous pouvez télecharger les fichiers sur vos telephones ou ordinateur : 
 
